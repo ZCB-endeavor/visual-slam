@@ -20,15 +20,14 @@
 
 ## 如何运行
 进入项目文件夹，打开终端执行如下命令编译项目。
-
-` mkdir build `
-
-` cd build `
-
-` cmake .. `
-
-` make -j4 `
+```shell
+mkdir build
+cd build
+cmake ..
+make -j4
+```
 
 执行如下命令运行项目
-
-` ./visual-slam -v ../vocb/orb_vocab.fbow -i [图像序列所在目录] -c [配置文件路径] `
+```shell
+./visual-slam -v ../vocb/orb_vocab.fbow -i [图像序列所在目录] -c [配置文件路径]
+```
